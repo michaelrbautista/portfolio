@@ -34,7 +34,7 @@ export const items = [
         location: "San Luis Obispo, CA"
     },
     {
-        date: "2021",
+        date: "Jul. 2021",
         title: "Equinix",
         subtitle: "Product Management Intern",
         location: "Sunnyvale, CA"
