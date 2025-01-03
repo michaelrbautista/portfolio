@@ -1,7 +1,6 @@
 import BackButton from "@/components/BackButton"
 import { Section } from "@/components/Section"
 import { ArrowUpRight } from "lucide-react"
-import Link from "next/link"
 import { AtlasSections } from "../content/atlas"
 
 const page = () => {
