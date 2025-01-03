@@ -29,13 +29,13 @@ const Home = () => {
                     </div>
                     <div className="w-full">
                         <p>
-                            Product manager that values design. 
+                            Product manager with an appreciation for simple designs. 
                             Previously, I was a product manager at Equinix. 
                             I’m currently building Atlas, a monetization platform for 
                             fitness content creators. <br/>
                             <br />
                             In my free time, I immerse myself into everything health and 
-                            fitness. At the moment, I’m focusing on ultra running and 
+                            fitness. At the moment, I’m focused on ultra running and 
                             nutrition for vitality.
                         </p>
                     </div>
