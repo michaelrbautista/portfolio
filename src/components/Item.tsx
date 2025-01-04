@@ -17,7 +17,7 @@ const Item = ({
         return (
             <Link
                 href={item.navigateUrl}
-                className="flex flex-row w-full items-center justify-between gap-10 px-5 py-[10px] rounded-md hover:bg-systemGray-6 cursor-ponter">
+                className="flex flex-col sm:flex-row w-full sm:items-center justify-between gap-2 sm:gap-10 px-5 py-[10px] rounded-md hover:bg-systemGray-6 cursor-ponter">
                 <div className="w-[250px] shrink-0">
                     <p className="text-systemGray">{item.date}</p>
                 </div>
@@ -30,7 +30,7 @@ const Item = ({
         )
     } else {
         return (
-            <div className="flex flex-row w-full items-center justify-between gap-10 px-5 py-[10px]">
+            <div className="flex flex-col sm:flex-row w-full sm:items-center justify-between gap-2 sm:gap-10 px-5 py-[10px]">
                 <div className="w-[250px] shrink-0">
                     <p className="text-systemGray">{item.date}</p>
                 </div>

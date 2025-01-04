@@ -3,7 +3,7 @@ import { Section } from "@/components/Section"
 
 const page = () => {
     return (
-        <div className="w-[800px] py-20">
+        <div className="w-full sm:w-[800px] py-20">
             <div className="flex flex-col gap-20 px-5">
                 <BackButton />
                 <div className="flex flex-col gap-5">
@@ -23,11 +23,20 @@ const page = () => {
                                 </p>
                             </div>
                         </div>
-                        <Section
-                            header="Amplitude"
-                            body=""
-                            key="Amplitude"
-                        />
+                        <div className="flex flex-col gap-2">
+                            <h1 className="text-lg font-bold">Amplitude</h1>
+                            <div className="flex flex-col gap-5">
+                                <p className="">
+                                    As the company’s Amplitude power user, I used analytics to identify gaps in our product’s user experience. Like previously mentioned, I helped identify and resolve gaps in the Quick Connect feature, increasing the conversion rate from 5% to 20% and reducing the time to convert by 19%.
+                                </p>
+                                <p className="">
+                                    I also identified that less than 5% of our daily users interacted with the home page, which kickstarted an effort to redesign the home page. Using Amplitude even further, I identified the most common workflows that our daily users completed, and used those to guide the new home page.
+                                </p>
+                                <p className="">
+                                    Additionally, for the pricing tool that I worked on as an intern, I used Amplitude to measure its success. Users get value from the pricing tool when they estimate a configured product and export the estimate to get budget approval. We were able to measure the conversion rate for configuring a product and adding it to the estimate. We weren’t tracking estimate export rates, but put that on the roadmap once we discovered it wasn’t being tracked.
+                                </p>
+                            </div>
+                        </div>
                         <Section
                             header="APIs"
                             body="At Equinix, I acted as our team’s contact for API support. I assisted multiple teams in creating custom applications with the Fabric APIs. The process for creating these custom applications was similar for each customer. I would start with understanding the problem that they were trying to solve, then created a user journey for the solution. Once the user journey was created, I then mapped out which APIs would be used for each step. Once the APIs were added to the user journey, I either worked with our own UX team to create wireframes or handed the user journey to the customer’s UX team."

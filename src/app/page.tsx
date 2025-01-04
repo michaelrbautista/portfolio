@@ -6,9 +6,9 @@ import { items } from "./items";
 
 const Home = () => {
     return (
-        <div className="w-[800px] py-20">
+        <div className="w-full sm:w-[800px] py-20">
             <div className="flex flex-col gap-5">
-                <div className="flex flex-row justify-between gap-10 px-5 py-5 border-b-[1px]">
+                <div className="flex flex-col sm:flex-row justify-between gap-10 px-5 py-5 border-b-[1px]">
                     <div className="flex flex-col w-[250px] gap-5 shrink-0">
                         <div className="flex flex-row items-center gap-5">
                             <Image
