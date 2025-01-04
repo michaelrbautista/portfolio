@@ -12,7 +12,7 @@ const page = () => {
                         <p className="font-semibold text-base text-systemGray">26.2 miles with 1,300 ft. of elevation</p>
                     </div>
                     <div className="flex justify-center py-10">
-                        <div className="relative flex items-center w-[400px] h-[500px]">
+                        <div className="relative flex items-center w-[200px] h-[300px] sm:w-[400px] sm:h-[500px]">
                             <Image
                                 className="rounded-md"
                                 fill
@@ -56,7 +56,7 @@ const page = () => {
                                 This is what my day to day nutrition looked like for most of my training. I’ve used MyNetDiary for over 4 years to track what I eat.
                             </p>
                             <div className="flex w-full justify-center py-10">
-                                <div className="relative flex items-center w-[600px] h-[630px]">
+                                <div className="relative flex items-center w-[370px] h-[370px] sm:w-[600px] sm:h-[630px]">
                                     <Image
                                         className="rounded-md"
                                         fill
@@ -68,7 +68,7 @@ const page = () => {
                                 </div>
                             </div>
                             <div className="flex w-full justify-center py-10">
-                                <div className="relative flex items-center w-[400px] h-[650px]">
+                                <div className="relative flex items-center w-[200px] h-[300px] sm:w-[400px] sm:h-[500px]">
                                     <Image
                                         className="rounded-md"
                                         fill
@@ -103,7 +103,7 @@ const page = () => {
                                 At mile 13, we hit the climb. I had heard people talk about how brutal the climb was, but had never experienced it before. It was hard, but I spend most of my long runs running up and down hills throughout the city so it wasn’t as bad as I was expecting it to be.
                             </p>
                             <div className="flex w-full justify-center py-10">
-                                <div className="relative flex items-center w-[400px] h-[650px]">
+                                <div className="relative flex items-center w-[200px] h-[300px] sm:w-[400px] sm:h-[500px]">
                                     <Image
                                         className="rounded-md"
                                         fill
