@@ -12,7 +12,7 @@ const page = () => {
                         <p className="font-semibold text-base text-systemGray">26.2 miles with 1,300 ft. of elevation</p>
                     </div>
                     <div className="flex justify-center py-10">
-                        <div className="relative flex items-center w-[200px] h-[300px] sm:w-[400px] sm:h-[500px]">
+                        <div className="relative flex items-center w-[200px] h-[300px] sm:w-[400px] sm:h-[500px] shrink-0">
                             <Image
                                 className="rounded-md"
                                 fill
@@ -56,7 +56,7 @@ const page = () => {
                                 This is what my day to day nutrition looked like for most of my training. I’ve used MyNetDiary for over 4 years to track what I eat.
                             </p>
                             <div className="flex w-full justify-center py-10">
-                                <div className="relative flex items-center w-[370px] h-[370px] sm:w-[600px] sm:h-[630px]">
+                                <div className="relative flex items-center w-[370px] h-[370px] sm:w-[600px] sm:h-[630px] shrink-0">
                                     <Image
                                         className="rounded-md"
                                         fill
@@ -68,7 +68,7 @@ const page = () => {
                                 </div>
                             </div>
                             <div className="flex w-full justify-center py-10">
-                                <div className="relative flex items-center w-[200px] h-[300px] sm:w-[400px] sm:h-[500px]">
+                                <div className="relative flex items-center w-[200px] h-[300px] sm:w-[400px] sm:h-[500px] shrink-0">
                                     <Image
                                         className="rounded-md"
                                         fill
@@ -103,7 +103,7 @@ const page = () => {
                                 At mile 13, we hit the climb. I had heard people talk about how brutal the climb was, but had never experienced it before. It was hard, but I spend most of my long runs running up and down hills throughout the city so it wasn’t as bad as I was expecting it to be.
                             </p>
                             <div className="flex w-full justify-center py-10">
-                                <div className="relative flex items-center w-[200px] h-[300px] sm:w-[400px] sm:h-[500px]">
+                                <div className="relative flex items-center w-[200px] h-[300px] sm:w-[400px] sm:h-[500px] shrink-0">
                                     <Image
                                         className="rounded-md"
                                         fill
@@ -118,7 +118,7 @@ const page = () => {
                                 After the big climb around mile 13, I started to think I could pick up the pace. At mile 19, I still felt like I could pick up the pace, so I decided to gun it. For miles 1 to 19, I had maintained a pace of around 8 min/mile. For miles 20 to 26, I maintained a pace of around 7 min/mile. I clipped the last two miles at 6:29 and 6:27.
                             </p>
                             <div className="flex w-full justify-center py-10">
-                                <div className="relative flex items-center w-[275px] h-[600px]">
+                                <div className="relative flex items-center w-[275px] h-[600px] shrink-0">
                                     <Image
                                         className="rounded-md"
                                         fill
