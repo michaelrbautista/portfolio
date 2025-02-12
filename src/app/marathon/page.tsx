@@ -1,25 +1,25 @@
 import BackButton from "@/components/BackButton"
-import Image from "next/image"
+import BlurImage from "@/components/BlurImage"
 
 const page = () => {
     return (
-        <div className="w-full sm:w-[800px] py-20">
-            <div className="flex flex-col gap-20 px-5">
+        <div className="w-full sm:max-w-md py-20">
+            <div className="flex flex-col gap-10 px-5">
                 <BackButton />
                 <div className="flex flex-col gap-5">
                     <div className="flex flex-col">
-                        <p className="font-bold text-2xl">2023 San Francisco Marathon</p>
+                        <p className="font-bold text-xl">2023 San Francisco Marathon</p>
                         <p className="font-semibold text-base text-systemGray">26.2 miles with 1,300 ft. of elevation</p>
                     </div>
                     <div className="flex justify-center py-10">
-                        <div className="relative flex items-center w-[200px] h-[300px] sm:w-[400px] sm:h-[500px] shrink-0">
-                            <Image
-                                className="rounded-md"
-                                fill
-                                src="/marathonPhoto.jpeg"
+                        <div className="relative flex items-center w-[300px] h-[400px] shrink-0">
+                            <BlurImage
                                 alt="marathon"
-                                style={{objectFit: "cover"}}
-                                priority
+                                src="https://ltjnvfgpomlatmtqjxrk.supabase.co/storage/v1/object/public/landing_page//marathonPhoto.jpeg"
+                                contentMode="contain"
+                                sizes="300px"
+                                className="rounded-md"
+                                canSelect={false}
                             />
                         </div>
                     </div>
@@ -55,27 +55,27 @@ const page = () => {
                             <p className="">
                                 This is what my day to day nutrition looked like for most of my training. I’ve used MyNetDiary for over 4 years to track what I eat.
                             </p>
-                            <div className="flex w-full justify-center py-10">
-                                <div className="relative flex items-center w-[370px] h-[370px] sm:w-[600px] sm:h-[630px] shrink-0">
-                                    <Image
-                                        className="rounded-md"
-                                        fill
-                                        src="/dayToDayNutrition.jpg"
+                            <div className="flex w-full justify-center">
+                                <div className="relative flex items-center w-[400px] h-[500px] shrink-0">
+                                    <BlurImage
                                         alt="marathon"
-                                        style={{objectFit: "cover"}}
-                                        priority
+                                        src="https://ltjnvfgpomlatmtqjxrk.supabase.co/storage/v1/object/public/landing_page//dayToDayNutrition.jpg"
+                                        contentMode="contain"
+                                        sizes="400px"
+                                        className="rounded-md"
+                                        canSelect={false}
                                     />
                                 </div>
                             </div>
                             <div className="flex w-full justify-center py-10">
-                                <div className="relative flex items-center w-[200px] h-[300px] sm:w-[400px] sm:h-[500px] shrink-0">
-                                    <Image
-                                        className="rounded-md"
-                                        fill
-                                        src="/marathonNutrients.jpg"
+                                <div className="relative flex items-center w-[400px] h-[500px] shrink-0">
+                                    <BlurImage
                                         alt="marathon"
-                                        style={{objectFit: "cover"}}
-                                        priority
+                                        src="https://ltjnvfgpomlatmtqjxrk.supabase.co/storage/v1/object/public/landing_page//marathonNutrients.jpg"
+                                        contentMode="contain"
+                                        sizes="400px"
+                                        className="rounded-md"
+                                        canSelect={false}
                                     />
                                 </div>
                             </div>
@@ -103,14 +103,14 @@ const page = () => {
                                 At mile 13, we hit the climb. I had heard people talk about how brutal the climb was, but had never experienced it before. It was hard, but I spend most of my long runs running up and down hills throughout the city so it wasn’t as bad as I was expecting it to be.
                             </p>
                             <div className="flex w-full justify-center py-10">
-                                <div className="relative flex items-center w-[200px] h-[300px] sm:w-[400px] sm:h-[500px] shrink-0">
-                                    <Image
-                                        className="rounded-md"
-                                        fill
-                                        src="/finalPaces.jpg"
+                                <div className="relative flex items-center w-[400px] h-[500px] shrink-0">
+                                    <BlurImage
                                         alt="marathon"
-                                        style={{objectFit: "cover"}}
-                                        priority
+                                        src="https://ltjnvfgpomlatmtqjxrk.supabase.co/storage/v1/object/public/landing_page//finalPaces.jpg"
+                                        contentMode="contain"
+                                        sizes="400px"
+                                        className="rounded-md"
+                                        canSelect={false}
                                     />
                                 </div>
                             </div>
@@ -119,13 +119,13 @@ const page = () => {
                             </p>
                             <div className="flex w-full justify-center py-10">
                                 <div className="relative flex items-center w-[275px] h-[600px] shrink-0">
-                                    <Image
-                                        className="rounded-md"
-                                        fill
-                                        src="/sfMarathon.JPG"
+                                    <BlurImage
                                         alt="marathon"
-                                        style={{objectFit: "cover"}}
-                                        priority
+                                        src="https://ltjnvfgpomlatmtqjxrk.supabase.co/storage/v1/object/public/landing_page//sfMarathon.JPG"
+                                        contentMode="contain"
+                                        sizes="275px"
+                                        className="rounded-md"
+                                        canSelect={false}
                                     />
                                 </div>
                             </div>

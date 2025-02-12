@@ -3,12 +3,12 @@ import { Section } from "@/components/Section"
 
 const page = () => {
     return (
-        <div className="w-full sm:w-[800px] py-20">
-            <div className="flex flex-col gap-20 px-5">
+        <div className="w-full sm:max-w-md py-20">
+            <div className="flex flex-col gap-10 px-5">
                 <BackButton />
                 <div className="flex flex-col gap-5">
                     <div className="flex flex-col">
-                        <p className="font-bold text-2xl">Equinix</p>
+                        <p className="font-bold text-xl">Equinix</p>
                         <p className="font-semibold text-base text-systemGray">Senior Associate Product Manager</p>
                     </div>
                     <div className="flex flex-col gap-10">

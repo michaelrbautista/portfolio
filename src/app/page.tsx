@@ -1,49 +1,53 @@
-import ConnectButton from "@/components/ConnectButton";
 import ItemList from "@/components/ItemList";
-import Image from "next/image"
 import { items } from "./items";
-
+import Link from "next/link";
 
 const Home = () => {
     return (
-        <div className="w-full sm:w-[800px] py-20">
-            <div className="flex flex-col gap-5">
-                <div className="flex flex-col sm:flex-row justify-between gap-10 px-5 py-5 border-b-[1px]">
-                    <div className="flex flex-col w-[250px] gap-5 shrink-0">
-                        <div className="flex flex-row items-center gap-5">
-                            <Image
-                                className="h-[50px] w-[50px] rounded-full"
-                                height={50}
-                                width={50}
-                                src="/MichaelBautistaHeadshot.jpg"
-                                alt="headshot"
-                                style={{objectFit: "cover"}}
-                                priority
-                            />
-                            <div className="flex flex-col gap-0">
-                                <p className="font-bold text-base">Michael Bautista</p>
-                                <p className="text-systemGray">Product Manager</p>
-                            </div>
-                        </div>
-                        <ConnectButton />
-                    </div>
-                    <div className="w-full">
-                        <p>
-                            Product manager with an appreciation for simple designs. 
-                            Previously, I was a product manager at Equinix. 
-                            I’m currently building Atlas, a monetization platform for 
-                            fitness content creators. <br/>
-                            <br />
-                            In my free time, I immerse myself into everything health and 
-                            fitness. At the moment, I’m focused on ultra running and 
-                            nutrition for vitality.
-                        </p>
-                    </div>
+        <div className="w-full sm:max-w-md py-20">
+            <div className="flex flex-col gap-10 pb-5 border-b-[1px]">
+                <div className="flex flex-row justify-between items-center">
+                    <h1 className="font-bold text-lg">
+                        Michael Bautista
+                    </h1>
+                    <Link
+                        className="text-systemGray underline"
+                        href="/connect"
+                    >
+                        Connect
+                    </Link>
                 </div>
-                <div>
-                    <ItemList items={items} />
+                <div className="flex flex-col gap-3">
+                    <p className="">
+                        Currently building <a href="/atlas" className="underline">Atlas</a> to help 
+                        online fitness coaches monetize their training, nutrition, and lifestyle 
+                        content.
+                    </p>
+                    <p className="">
+                        1st place finisher in 32 mile ultra with 8,691 feet of elevation. Will run a 
+                        50 mile race at some point.
+                    </p>
+                    <div className="flex flex-row gap-5">
+                        <a
+                            className="underline"
+                            href="https://www.useatlas.xyz/michael"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Atlas
+                        </a>
+                        <a
+                            className="underline"
+                            href="https://www.instagram.com/michaelsrunning/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Instagram
+                        </a>
+                    </div>
                 </div>
             </div>
+            <ItemList items={items} />
         </div>
     )
 }
