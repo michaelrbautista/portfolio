@@ -22,7 +22,7 @@ export const items = [
     },
     {
         date: "2023",
-        title: "2023 San Francisco Marathon",
+        title: "San Francisco Marathon",
         subtitle: "26.2 miles with 1,300 ft. of elevation",
         location: "San Francisco, CA",
         navigateUrl: "/marathon"
