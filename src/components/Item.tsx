@@ -3,7 +3,6 @@ import Link from "next/link"
 export type ItemType = {
     date: string,
     title: string,
-    subtitle: string,
     navigateUrl?: string
 }
 

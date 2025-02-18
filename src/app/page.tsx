@@ -19,13 +19,15 @@ const Home = () => {
                 </div>
                 <div className="flex flex-col gap-3">
                     <p className="text-sm">
-                        Currently building <a href="/atlas" className="underline">Atlas</a> to help 
-                        online fitness coaches monetize their training, nutrition, and lifestyle 
-                        content.
+                        Currently building an iOS app to help people run and lift.
                     </p>
                     <p className="text-sm">
-                        1st place finisher in 32 mile ultra with 8,691 feet of elevation. Will run a 
-                        50 mile race at some point.
+                        Obsessed with health and fitness. Division 1 soccer, SF marathon in 3:29, and 1st 
+                        place finisher in 32 mile ultra with 8,691 feet of elevation. Also into 
+                        videography and content creation.
+                    </p>
+                    <p className="text-sm">
+                        Grew up in Arroyo Grande, California. Currently in San Francisco.
                     </p>
                     <div className="flex flex-row gap-5">
                         <div className="flex flex-row gap-5">

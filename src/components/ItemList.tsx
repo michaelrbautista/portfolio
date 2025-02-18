@@ -11,7 +11,7 @@ const ItemList = ({
                 return (
                     <Item
                         item={item}
-                        key={item.subtitle}
+                        key={item.title}
                     />
                 )
             })}
