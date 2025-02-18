@@ -2,7 +2,7 @@ import BackButton from "@/components/BackButton"
 
 const Connect = () => {
     return (
-        <div className="w-full sm:max-w-md py-20">
+        <div className="w-full sm:max-w-lg py-20">
             <div className="flex flex-col gap-10 px-5 sm:px-0">
                 <BackButton />
                 <div className="flex flex-col gap-5">
