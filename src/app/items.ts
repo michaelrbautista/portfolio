@@ -1,10 +1,10 @@
 export const items = [
     {
         date: "Present",
-        title: "Atlas",
+        title: "Building",
         subtitle: "Founder",
         location: "San Francisco, CA",
-        navigateUrl: "/atlas"
+        navigateUrl: "/building"
     },
     {
         date: "2024",

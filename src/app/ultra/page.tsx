@@ -8,8 +8,8 @@ const page = () => {
                 <BackButton />
                 <div className="flex flex-col gap-5">
                     <div className="flex flex-col">
-                        <p className="font-bold text-xl">Almaden Hills Trail Run</p>
-                        <p className="font-semibold text-base text-systemGray">32 mile ultramarathon with 8,691 ft. of elevation</p>
+                        <p className="font-semibold text-base">Almaden Hills Trail Run</p>
+                        <p className="text-sm text-systemGray">32 mile ultramarathon with 8,691 ft. of elevation</p>
                     </div>
                     <div className="flex w-full justify-center rounded-md py-10">
                         <div className="relative flex items-center w-[275px] h-[600px] shrink-0">
