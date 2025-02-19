@@ -7,8 +7,8 @@ export const Section = ({
 }) => {
   return (
     <div className="flex flex-col gap-1">
-        <h1 className="text-lg font-bold">{header}</h1>
-        <p className="">{body}</p>
+        <h1 className="text-sm font-semibold">{header}</h1>
+        <p className="text-sm">{body}</p>
     </div>
   )
 }
