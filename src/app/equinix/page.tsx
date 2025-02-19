@@ -12,7 +12,7 @@ const page = () => {
                         <p className="text-sm text-systemGray">Senior Associate Product Manager</p>
                     </div>
                     <div className="flex flex-col gap-10">
-                        <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-1">
                             <h1 className="text-sm font-semibold">Quick Connect</h1>
                             <div className="flex flex-col gap-5">
                                 <p className="text-sm">
@@ -23,7 +23,7 @@ const page = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-1">
                             <h1 className="text-sm font-semibold">Amplitude</h1>
                             <div className="flex flex-col gap-5">
                                 <p className="">
@@ -42,7 +42,7 @@ const page = () => {
                             body="At Equinix, I acted as our team’s contact for API support. I assisted multiple teams in creating custom applications with the Fabric APIs. The process for creating these custom applications was similar for each customer. I would start with understanding the problem that they were trying to solve, then created a user journey for the solution. Once the user journey was created, I then mapped out which APIs would be used for each step. Once the APIs were added to the user journey, I either worked with our own UX team to create wireframes or handed the user journey to the customer’s UX team."
                             key="APIs"
                         />
-                        <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-1">
                             <h1 className="text-sm font-semibold">Pricing Tool</h1>
                             <div className="flex flex-col gap-5">
                                 <p className="text-sm">
