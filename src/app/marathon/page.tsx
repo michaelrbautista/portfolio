@@ -23,7 +23,7 @@ const page = () => {
                             />
                         </div>
                     </div>
-                    <div className="flex flex-col gap-1">
+                    <div className="flex flex-col">
                         <h1 className="text-sm font-semibold">Training</h1>
                         <div className="flex flex-col gap-5">
                             <p className="text-sm">
@@ -61,7 +61,7 @@ const page = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex flex-col gap-1">
+                    <div className="flex flex-col">
                         <h1 className="text-sm font-semibold">Nutrition</h1>
                         <div className="flex flex-col gap-5">
                             <p className="text-sm">
@@ -127,7 +127,7 @@ const page = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex flex-col gap-1">
+                    <div className="flex flex-col">
                         <h1 className="text-sm font-semibold">Race</h1>
                         <div className="flex flex-col gap-5">
                             <p className="text-sm">
