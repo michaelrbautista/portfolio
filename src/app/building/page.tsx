@@ -16,7 +16,7 @@ const page = () => {
                             <div className="flex flex-col gap-5">
                                 <p className="text-sm">
                                     As a Division 1 soccer player, marathon runner, and ultramarathon runner, I’ve always enjoyed combining 
-                                    endurance training with strength training. In each pursuit, I’ve found it difficult to find training 
+                                    endurance training and strength training. In each pursuit, I’ve found it difficult to find training 
                                     programs that balance the two. I’m planning on running a 50 mile ultramarathon soon, and haven’t been 
                                     able to find a training program that incorporates running and lifting.
                                 </p>
