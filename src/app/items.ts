@@ -1,7 +1,7 @@
 export const items = [
     {
         date: "Present",
-        title: "Building Hybrid Training Club",
+        title: "Building Daily",
         navigateUrl: "/building"
     },
     {

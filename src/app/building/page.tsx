@@ -1,4 +1,6 @@
 import BackButton from "@/components/BackButton"
+import { ArrowUpRight } from "lucide-react"
+import Link from "next/link"
 
 const page = () => {
     return (
@@ -7,18 +9,30 @@ const page = () => {
                 <BackButton />
                 <div className="flex flex-col gap-10">
                     <div className="flex flex-col">
-                        <p className="font-semibold text-base">Hybrid Training Club</p>
-                        <p className="text-sm text-systemGray">Personalized hybrid training programs</p>
+                        <p className="font-semibold text-base">Daily</p>
+                        <p className="text-sm text-systemGray">Running accountability</p>
+                    </div>
+                    <div className="flex flex-col gap-3">
+                        {/* <Link className="flex flex-row items-center gap-1" href="" target="_blank" rel="noopener noreferrer">
+                            <ArrowUpRight size={20} color="white" />
+                            <p>iOS App Store</p>
+                        </Link> */}
+                        <div className="flex flex-row items-center gap-1">
+                            <ArrowUpRight size={20} color="#8E8E93" />
+                            <p className="text-[#8E8E93]">iOS App Store (in review)</p>
+                        </div>
+                        <Link className="flex flex-row items-center gap-1" href="https://github.com/michaelrbautista/Daily" target="_blank" rel="noopener noreferrer">
+                            <ArrowUpRight size={20} color="white" />
+                            <p>Github</p>
+                        </Link>
                     </div>
                     <div className="flex flex-col gap-10">
                         <div className="flex flex-col">
                             <h1 className="text-sm font-semibold">Why</h1>
                             <div className="flex flex-col gap-5">
                                 <p className="text-sm">
-                                    As a Division 1 soccer player, marathon runner, and ultramarathon runner, I’ve always enjoyed combining 
-                                    endurance training and strength training. In each pursuit, I’ve found it difficult to find training 
-                                    programs that balance the two. I’m planning on running a 50 mile ultramarathon soon, and haven’t been 
-                                    able to find a training program that incorporates running and lifting.
+                                Consistency compounds. Visualizing consistency helps me stay accountable, so I made an app 
+                                that does that with run data.
                                 </p>
                             </div>
                         </div>
@@ -26,9 +40,9 @@ const page = () => {
                             <h1 className="text-sm font-semibold">What</h1>
                             <div className="flex flex-col gap-5">
                                 <p className="text-sm">
-                                    Hybrid AI is an iOS app that creates personalized hybrid training programs for general strength and 
-                                    endurance training or race preparation. Based on criteria like experience, current level of fitness, 
-                                    and training foals, users get a personalized training program that includes running and lifting.
+                                Daily is an iOS app that imports and visualizes your run data. My Github contribution graph 
+                                motivates me to push code more consistently, so the main feature of the app is a similar graph 
+                                that shows how consistent you’ve been with your runs.
                                 </p>
                             </div>
                         </div>
