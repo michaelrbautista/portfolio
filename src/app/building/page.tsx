@@ -9,8 +9,8 @@ const page = () => {
                 <BackButton />
                 <div className="flex flex-col gap-10">
                     <div className="flex flex-col">
-                        <p className="font-semibold text-base">Daily</p>
-                        <p className="text-sm text-systemGray">Running accountability</p>
+                        <p className="font-semibold text-base">Motive</p>
+                        <p className="text-sm text-systemGray">Motivational Widgets</p>
                     </div>
                     <div className="flex flex-col gap-3">
                         {/* <Link className="flex flex-row items-center gap-1" href="" target="_blank" rel="noopener noreferrer">
@@ -21,18 +21,13 @@ const page = () => {
                             <ArrowUpRight size={20} color="#8E8E93" />
                             <p className="text-[#8E8E93]">iOS App Store (in review)</p>
                         </div>
-                        <Link className="flex flex-row items-center gap-1" href="https://github.com/michaelrbautista/Daily" target="_blank" rel="noopener noreferrer">
-                            <ArrowUpRight size={20} color="white" />
-                            <p>Github</p>
-                        </Link>
                     </div>
                     <div className="flex flex-col gap-10">
                         <div className="flex flex-col">
                             <h1 className="text-sm font-semibold">Why</h1>
                             <div className="flex flex-col gap-5">
                                 <p className="text-sm">
-                                Consistency compounds. Visualizing consistency helps me stay accountable, so I made an app 
-                                that does that with run data.
+                                The top motivational quotes app on the iOS App Store makes $200K+ MRR and they have zero social media presence.
                                 </p>
                             </div>
                         </div>
@@ -40,9 +35,15 @@ const page = () => {
                             <h1 className="text-sm font-semibold">What</h1>
                             <div className="flex flex-col gap-5">
                                 <p className="text-sm">
-                                Daily is an iOS app that imports and visualizes your run data. My Github contribution graph 
-                                motivates me to push code more consistently, so the main feature of the app is a similar graph 
-                                that shows how consistent you’ve been with your runs.
+                                Motive gives users daily motivational quotes from history's most successful athletes, entrepreneurs, and leaders. The emergency button gives users the harsh reality about the discipline, grit, and perseverance needed to reach one's goals.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="flex flex-col">
+                            <h1 className="text-sm font-semibold">How</h1>
+                            <div className="flex flex-col gap-5">
+                                <p className="text-sm">
+                                The Bible Chat app has gotten over 20 million views on TikTok showcasing their Bible verse lock screen widget. I'll be posting content with the same hook/structure as well as content formats that are going viral in the motivation niche.
                                 </p>
                             </div>
                         </div>

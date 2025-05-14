@@ -17,14 +17,13 @@ const Home = () => {
                         Connect
                     </Link>
                 </div>
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-4">
                     <p className="text-sm">
                         Currently building an iOS app to help people run and lift.
                     </p>
                     <p className="text-sm">
                         Obsessed with health and fitness. Division 1 soccer, SF marathon in 3:23, and 1st 
-                        place finisher in 32 mile ultra with 8,691 feet of elevation. Also into 
-                        videography and content creation.
+                        place finisher in 32 mile ultra with 8,691 feet of elevation.
                     </p>
                     <p className="text-sm">
                         Grew up in Arroyo Grande, California. Currently in San Francisco.
