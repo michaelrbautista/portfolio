@@ -1,6 +1,5 @@
 import BackButton from "@/components/BackButton"
 import { ArrowUpRight } from "lucide-react"
-import Link from "next/link"
 
 const page = () => {
     return (
@@ -35,7 +34,7 @@ const page = () => {
                             <h1 className="text-sm font-semibold">What</h1>
                             <div className="flex flex-col gap-5">
                                 <p className="text-sm">
-                                Motive gives users daily motivational quotes from history's most successful athletes, entrepreneurs, and leaders. The emergency button gives users the harsh reality about the discipline, grit, and perseverance needed to reach one's goals.
+                                Motive gives users daily motivational quotes from history&apos;s most successful athletes, entrepreneurs, and leaders. The emergency button gives users the harsh reality about the discipline, grit, and perseverance needed to reach one&apos;s goals.
                                 </p>
                             </div>
                         </div>
@@ -43,7 +42,7 @@ const page = () => {
                             <h1 className="text-sm font-semibold">How</h1>
                             <div className="flex flex-col gap-5">
                                 <p className="text-sm">
-                                The Bible Chat app has gotten over 20 million views on TikTok showcasing their Bible verse lock screen widget. I'll be posting content with the same hook/structure as well as content formats that are going viral in the motivation niche.
+                                The Bible Chat app has gotten over 20 million views on TikTok showcasing their Bible verse lock screen widget. I&apos;ll be posting content with the same hook/structure as well as content formats that are going viral in the motivation niche.
                                 </p>
                             </div>
                         </div>
