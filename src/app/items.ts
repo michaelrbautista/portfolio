@@ -1,7 +1,7 @@
 export const items = [
     {
         date: "Present",
-        title: "Building Motive",
+        title: "Building Locked In",
         navigateUrl: "/building"
     },
     {

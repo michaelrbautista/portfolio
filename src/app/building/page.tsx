@@ -8,7 +8,7 @@ const page = () => {
                 <BackButton />
                 <div className="flex flex-col gap-10">
                     <div className="flex flex-col">
-                        <p className="font-semibold text-base">Motive</p>
+                        <p className="font-semibold text-base">Locked In</p>
                         <p className="text-sm text-systemGray">Motivational Widgets</p>
                     </div>
                     <div className="flex flex-col gap-3">
@@ -34,7 +34,7 @@ const page = () => {
                             <h1 className="text-sm font-semibold">What</h1>
                             <div className="flex flex-col gap-5">
                                 <p className="text-sm">
-                                Motive gives users daily motivational quotes from history&apos;s most successful athletes, entrepreneurs, and leaders. The emergency button gives users the harsh reality about the discipline, grit, and perseverance needed to reach one&apos;s goals.
+                                Locked In gives users daily motivational quotes from history&apos;s most successful athletes, entrepreneurs, and leaders. The emergency button gives users the harsh reality about the discipline, grit, and perseverance needed to reach one&apos;s goals.
                                 </p>
                             </div>
                         </div>
