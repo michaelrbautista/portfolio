@@ -41,7 +41,7 @@ const Home = () => {
                         <div className="flex flex-row gap-5">
                             <a
                                 className="text-sm underline"
-                                href="https://www.instagram.com/michaelsrunning/"
+                                href="https://www.instagram.com/michaelbtsta/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
