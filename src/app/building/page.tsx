@@ -26,7 +26,7 @@ const page = () => {
                             <h1 className="text-sm font-semibold">Why</h1>
                             <div className="flex flex-col gap-5">
                                 <p className="text-sm">
-                                The top motivational quotes app on the iOS App Store makes $200K+ MRR and they have zero social media presence.
+                                The top motivational quote and motivational audio apps on the iOS App Store make $200K+ MRR. They have a weak product and social media presence.
                                 </p>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ const page = () => {
                             <h1 className="text-sm font-semibold">What</h1>
                             <div className="flex flex-col gap-5">
                                 <p className="text-sm">
-                                Locked In gives users daily motivational quotes from history&apos;s most successful athletes, entrepreneurs, and leaders. The emergency button gives users the harsh reality about the discipline, grit, and perseverance needed to reach one&apos;s goals.
+                                Locked In gives users motivational audios and quotes from history&apos;s most successful athletes, entrepreneurs, and leaders.
                                 </p>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ const page = () => {
                             <h1 className="text-sm font-semibold">How</h1>
                             <div className="flex flex-col gap-5">
                                 <p className="text-sm">
-                                The Bible Chat app has gotten over 20 million views on TikTok showcasing their Bible verse lock screen widget. I&apos;ll be posting content with the same hook/structure as well as content formats that are going viral in the motivation niche.
+                                I am executing a short form content strategy to get downloads. I&apos;m currently testing content formats on 3 different accounts and have gained over 200k views so far.
                                 </p>
                             </div>
                         </div>
